@@ -1,3 +1,4 @@
-fun main(args: Array<String>) {
-    println(checkBrackets("()"))
+fun main() {
+    var exmp = "({[([])]})"
+    println("The sequence of brackets $exmp is ${checkBrackets(exmp)}")
 }

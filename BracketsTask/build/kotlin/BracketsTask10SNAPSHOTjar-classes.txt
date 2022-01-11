@@ -1,1 +1,1 @@
-/Users/19801843/Desktop/tasks/BracketsTask/build/classes/kotlin/main/BracketsCheckKt.class:/Users/19801843/Desktop/tasks/BracketsTask/build/classes/kotlin/main/MainKt.class
+/Users/19801843/Desktop/Tasssssks/BracketsTask/build/classes/kotlin/main/BracketsCheckKt.class:/Users/19801843/Desktop/Tasssssks/BracketsTask/build/classes/kotlin/main/MainKt.class
