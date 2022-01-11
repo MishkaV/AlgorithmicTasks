@@ -1,3 +1,11 @@
+/**
+ * Simple checks for input string: is it empty or blank and check all characters in string -
+ * they should be brackets
+ *
+ * @exception Exception if empty string
+ * @exception Exception if bad character
+ * @author Vorozhtsov Misha
+ */
 fun simpleChecksForString(str: String) {
     val bracketsList = arrayListOf('(', ')', '{', '}', '[', ']')
 
@@ -9,10 +17,17 @@ fun simpleChecksForString(str: String) {
     }
 }
 
+/**
+ * CheckBrackets function need to understand is the sequence of brackets
+ * correct (each open bracket has its own closed one) or not
+ *
+ * @exception Exception if not enough open brackets
+ * @author Vorozhtsov Misha
+ */
 fun checkBrackets(str: String): Boolean {
-    var roundBracket = 0 // (
-    var curlyBracket = 0  // {
-    var squareBracket = 0 // [
+    var roundBracket = 0
+    var curlyBracket = 0
+    var squareBracket = 0
 
     simpleChecksForString(str)
 

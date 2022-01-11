@@ -1,4 +1,9 @@
+/**
+ * Just main with example of checkBrackets works
+ *
+ * @author Vorozhtsov Misha
+ */
 fun main() {
-    var exmp = "({[([])]})"
+    val exmp = "({[([])]})"
     println("The sequence of brackets $exmp is ${checkBrackets(exmp)}")
 }
